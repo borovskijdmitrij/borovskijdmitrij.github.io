@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pagination</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="size_data">
+		<span>Набор данных:</span>
+		<input type="radio" class="big_data">Большой
+		<input type="radio" class="small_data">Маленький
+		<input type="radio" class="my_data">Свой
+	</div>
+	<div class='enter'><input id="enter" type="text"></div>
+	<div class='catalog'></div>
+	<div class='output'></div>
+	<div class='select'>
+		<span>Выбрано:</span>
+		<span id='select'></span>
+	</div>
+	<div class='navigation'>
+		<ul></ul>
+	</div>
+	<div class='count_elem'>
+		<span>Количество элементов на странице: <input tupe='text' id='count_elem' value='50' size ='1'></span>
+	</div>
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>	
+</body>
+</html>
